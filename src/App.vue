@@ -39,11 +39,11 @@ export default {
       for(const user of this.database) {
         delete user.address.geo;
         delete user.address.suite;
-      };
+      }
       this.$store.commit("UPDATE_DATABASE", this.database);
       this.$store.commit("CREATE_FROM_STRUCTURE", this.database[0]);
       // console.log(this.$store.state.database)
-      console.log(this.$store.state.objectStructure)
+      console.log(this.$store.state.objectStructure);
       }
   )},
 }

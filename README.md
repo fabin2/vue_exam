@@ -1,24 +1,24 @@
 # vue_final
 
-## Project setup
-```
-npm install
-```
+## Rewrited
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+src folder/assets/css -> style.css  ✅
+src folder/assets/img -> images     ✅
 
-### Compiles and minifies for production
-```
-npm run build
-```
+src folder -> App.vue
 
-### Lints and fixes files
-```
-npm run lint
-```
+src folder/views -> AccueilView.vue     ✅
+src folder/views -> AjouterView.vue     ✅
+src folder/views -> ModifierView.vue
+src folder/views -> UtilisateursView.vue
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+
+src folder/components -> Footer.vue     ✅
+src folder/components -> Modal.vue      ✅
+
+src folder/mixins -> createObjectFromTextarea.js    ✅
+
+src folder/router -> index.js   ✅
+
+src folder/store -> index.js    ✅
+

@@ -1,5 +1,4 @@
 import { createRouter, createWebHistory } from 'vue-router'
-
 import Accueil from '../views/AccueilView.vue'
 import Utilisateurs from '../views/UtilisateursView.vue'
 import Ajouter from '../views/AjouterView.vue'
